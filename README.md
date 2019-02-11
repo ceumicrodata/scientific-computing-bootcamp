@@ -9,4 +9,4 @@
 7. (optional) Web architecture and cloud computing via Amazon Web Services
 
 ## Resources
-We will be using online courses and exercises from [DataCamp](https://www.datacamp.com/home), as well as own materials posted in this repo.
+We will be using online courses and exercises from [DataCamp](https://www.datacamp.com/home) and [Software Carpentry](https://software-carpentry.org/lessons/), as well as own materials posted in this repo.
