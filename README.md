@@ -3,8 +3,8 @@
 1. Linux and command line tools
 2. Working with plain text files (.csv, .tex)
 3. Version control and collaboration on Github
-4. Basic Python
-5. Clean coding in Stata 
+4. Clean coding in Stata 
+5. Basic Python
 6. Dependency management: make or similar
 7. Time logging and management
 8. (optional) Web architecture and cloud computing via Amazon Web Services
