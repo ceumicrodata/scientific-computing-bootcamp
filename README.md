@@ -1,4 +1,3 @@
-#imola
 # Syllabus
 ## Topics
 1. Linux and command line tools [done]
