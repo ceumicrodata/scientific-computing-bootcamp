@@ -1,0 +1,100 @@
+  460  pwd
+  461  cd ..
+  462  ls
+  463  cd 
+  464  cd Documents/
+  465  git clone git@github.com:ceumicrodata/scientific-computing-bootcamp.git
+  466  git remote -v
+  467  cd scientific-computing-bootcamp/
+  468  git remote -v
+  469  ls \
+  470  nano README.md 
+  471  git status
+  472  git diff
+  473  git add README.md 
+  474  git log
+  475  git push
+  476  tree .git/objects/
+  477  pwd
+  478  exit
+  479  exit
+  480  exit
+  481  pw
+  482  pwd
+  483  tree
+  484  pwd
+  485  mv ~/Documents/hundred_random_values.do .
+  486  ls
+  487  which stata
+  488  which stata-mp
+  489  stata
+  490  locate stata
+  491  /Applications/Stata/StataMP.app/Contents/MacOS/stata-mp
+  492  PATH = /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
+  493  export PATH = /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
+  494  export PATH /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
+  495  PATH=/Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
+  496  echo $PATH
+  497  pwd
+  498  stata-mp
+  499  StataMP
+  500  pwd
+  501  ls *.do
+  502  stata-mp -b do hundred_random_values.do 
+  503  # for windows
+  504  StataMP-64 /b do hundred_random_values.do
+  505  ls
+  506  ls -al
+  507  stata-mp do hundred_random_values.
+  508  stata-mp do hundred_random_values.do
+  509  cat hundred_random_values.log 
+  510  ls -al hundred_random_values.* 
+  511  less hundred_random_values.log 
+  512  less hundred_random_values.log cat hundred_random_values.log 
+  513  pwd
+  514  cd 
+  515  cd Documents/
+  516  mkdir stata-batch
+  517  cd stata-batch/
+  518  clear
+  519  tree
+  520  git clone git@github.com:korenmiklos/open-trade-data.git
+  521  tree
+  522  pwd
+  523  mkdir code/
+  524  mkdir analysis_sample/
+  525  mkdir output/
+  526  tree
+  527  cd code/
+  528  ls
+  529  touch create_analysis_sample.do
+  530  ls -al
+  531  touch calculate_distances.do
+  532  touch write_countries_csv.do
+  533  ls -al
+  534  touch read_analysis_sample.do
+  535  pwd
+  536  cd ..
+  537  pwd
+  538  tree
+  539  mkdir analysis_sample/
+  540  tree
+  541  less output/nearby-countries.csv 
+  542  wc -l output/nearby-countries.csv 
+  543  cat output/nearby-countries.csv 
+  544  mv code/create_analysis_sample.do code/01_create_analysis_sample.do 
+  545  mv code/read_analysis_sample.do code/02_read_analysis_sample.do 
+  546  mv code/calculate_distances.do code/03_calculate_distances.do 
+  547  mv code/write_countries_csv.do code/04_write_countries_csv.do 
+  548  tree
+  549  pwd
+  550  cd code/
+  551  pwd
+  552  ls -al
+  553  stata-mp -b do master
+  554  ls -al
+  555  tail master.log 
+  556  ls -al ../output/nearby-countries.csv 
+  557  tree ..
+  558  # end of stata episode 1 1453
+  559  history 100 > history.txt
