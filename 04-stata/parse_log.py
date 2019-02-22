@@ -53,7 +53,7 @@ def filter_prompt(line):
     '''
     Returns a sanitized version of the prompt.
     '''
-    return '$'.join(line.split('$')[1:])
+    return '$'.join([''] + line.split('$')[1:])
 
 class Parser(object):
     def __init__(self, iterator):

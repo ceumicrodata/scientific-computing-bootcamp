@@ -1,5 +1,5 @@
 ~~~
- pw
+$ pw
 ~~~
 {: .bash}
 
@@ -9,7 +9,7 @@
 {: .output}
 
 ~~~
- ⇥pwd
+$ ⇥pwd
 ~~~
 {: .bash}
 
@@ -19,7 +19,7 @@
 {: .output}
 
 ~~~
- ⇥⇥tree
+$ ⇥⇥tree
 ~~~
 {: .bash}
 
@@ -41,7 +41,7 @@
 {: .output}
 
 ~~~
- pwd
+$ pwd
 ~~~
 {: .bash}
 
@@ -51,8 +51,8 @@
 {: .output}
 
 ~~~
- mv ~/Documents/hundred_random_values.do .
- ls
+$ mv ~/Documents/hundred_random_values.do .
+$ ls
 ~~~
 {: .bash}
 
@@ -64,9 +64,9 @@ README.md			hundred_random_values.do
 {: .output}
 
 ~~~
- which stata
- which stata-mp
- stata
+$ which stata
+$ which stata-mp
+$ stata
 ~~~
 {: .bash}
 
@@ -76,7 +76,7 @@ README.md			hundred_random_values.do
 {: .output}
 
 ~~~
- locate stata
+$ locate stata
 ~~~
 {: .bash}
 
@@ -93,7 +93,7 @@ README.md			hundred_random_values.do
 {: .output}
 
 ~~~
- /Applications/Stata/StataMP.app/Contents/MacOS/stata-mp
+$ /Applications/Stata/StataMP.app/Contents/MacOS/stata-mp
 ~~~
 {: .bash}
 
@@ -125,7 +125,7 @@ Notes:
 {: .output}
 
 ~~~
- PATH = /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
+$ PATH = /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
 ~~~
 {: .bash}
 
@@ -135,7 +135,7 @@ Notes:
 {: .output}
 
 ~~~
- export 
+$ export 
 ~~~
 {: .bash}
 
@@ -150,12 +150,12 @@ bash: export: `/Applications/Stata/StataMP.app/Contents/MacOS/:/Library/Framewor
 {: .output}
 
 ~~~
- export PATH /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
+$ export PATH /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
 ~~~
 {: .bash}
 
 ~~~
-PATH
+$PATH
 /Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
 =/Applications/Stata/StataMP.app/Contents/MacOS/:$PATH
 
@@ -163,7 +163,7 @@ PATH
 {: .output}
 
 ~~~
- echo $PATH
+$ echo $PATH
 ~~~
 {: .bash}
 
@@ -173,7 +173,7 @@ PATH
 {: .output}
 
 ~~~
- pwd
+$ pwd
 ~~~
 {: .bash}
 
@@ -183,7 +183,7 @@ PATH
 {: .output}
 
 ~~~
- stata-mp
+$ stata-mp
 ~~~
 {: .bash}
 
@@ -215,8 +215,8 @@ Notes:
 {: .output}
 
 ~~~
- StataMP
- pwd
+$ StataMP
+$ pwd
 ~~~
 {: .bash}
 
@@ -226,7 +226,7 @@ Notes:
 {: .output}
 
 ~~~
- ls *.do
+$ ls *.do
 ~~~
 {: .bash}
 
@@ -236,9 +236,9 @@ Notes:
 {: .output}
 
 ~~~
- stata-mp -b do hundred_random_values.do 
- # for windows
- StataMP-64 /b do hun⇥dred_random_values.do
+$ stata-mp -b do hundred_random_values.do 
+$ # for windows
+$ StataMP-64 /b do hun⇥dred_random_values.do
 ~~~
 {: .bash}
 
@@ -248,7 +248,7 @@ Notes:
 {: .output}
 
 ~~~
- ls
+$ ls
 ~~~
 {: .bash}
 
@@ -260,7 +260,7 @@ README.md			hundred_random_values.do
 {: .output}
 
 ~~~
- ls -al
+$ ls -al
 ~~~
 {: .bash}
 
@@ -281,7 +281,7 @@ drwxr-xr-x@  3 koren  staff    96 Feb 22 12:19 UN
 {: .output}
 
 ~~~
- stata-mp do hu⇥ndred_random_values.
+$ stata-mp do hu⇥ndred_random_values.
 ~~~
 {: .bash}
 
@@ -318,7 +318,7 @@ r(601);
 {: .output}
 
 ~~~
- stata-mp do hundred_random_values.do
+$ stata-mp do hundred_random_values.do
 ~~~
 {: .bash}
 
@@ -370,7 +370,7 @@ r(4);
 {: .output}
 
 ~~~
- stata-mp do hundred_random_values.
+$ stata-mp do hundred_random_values.
 ~~~
 {: .bash}
 
@@ -422,7 +422,7 @@ end of do-file
 {: .output}
 
 ~~~
- ls h-al 
+$ ls h-al 
 ~~~
 {: .bash}
 
@@ -433,7 +433,7 @@ end of do-file
 {: .output}
 
 ~~~
- ⇥⇥less hun⇥dred_random_values.log 
+$ ⇥⇥less hun⇥dred_random_values.log 
 ~~~
 {: .bash}
 
@@ -524,7 +524,7 @@ IMF/                       download.sh                screenlog.0
 {: .output}
 
 ~~~
- less hundred_random_values.log cat h⇥undred_random_values.log 
+$ less hundred_random_values.log cat h⇥undred_random_values.log 
 ~~~
 {: .bash}
 
@@ -574,12 +574,12 @@ hundred_random_values.log (file 1 of 2) (END) - Next: cat
 {: .output}
 
 ~~~
- cd 
- cd Documents/
- mkdir stata-batch
- cd st⇥ata-batch/
- clear
- tree
+$ cd 
+$ cd Documents/
+$ mkdir stata-batch
+$ cd st⇥ata-batch/
+$ clear
+$ tree
 ~~~
 {: .bash}
 
@@ -591,7 +591,7 @@ hundred_random_values.log (file 1 of 2) (END) - Next: cat
 {: .output}
 
 ~~~
- git clone git@github.com:korenmiklos/open-trade-data.git
+$ git clone git@github.com:korenmiklos/open-trade-data.git
 ~~~
 {: .bash}
 
@@ -638,7 +638,7 @@ Receiving objects: 100% (11/11), 1.71 MiB | 627.00 KiB/s, done.
 {: .output}
 
 ~~~
- tree
+$ tree
 ~~~
 {: .bash}
 
@@ -660,7 +660,7 @@ Receiving objects: 100% (11/11), 1.71 MiB | 627.00 KiB/s, done.
 {: .output}
 
 ~~~
- pwd
+$ pwd
 ~~~
 {: .bash}
 
@@ -670,10 +670,10 @@ Receiving objects: 100% (11/11), 1.71 MiB | 627.00 KiB/s, done.
 {: .output}
 
 ~~~
- mkdir code/
- mkdir analysis_sample/
- mkdir output/
- tree
+$ mkdir code/
+$ mkdir analysis_sample/
+$ mkdir output/
+$ tree
 ~~~
 {: .bash}
 
@@ -698,10 +698,10 @@ Receiving objects: 100% (11/11), 1.71 MiB | 627.00 KiB/s, done.
 {: .output}
 
 ~~~
- cd code/
- ls
- touch create_analysis_sample.do
- ls -al
+$ cd code/
+$ ls
+$ touch create_analysis_sample.do
+$ ls -al
 ~~~
 {: .bash}
 
@@ -714,9 +714,9 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- touch calculate_distances.do
- touch write_countries_csv.do
- ls -al
+$ touch calculate_distances.do
+$ touch write_countries_csv.do
+$ ls -al
 ~~~
 {: .bash}
 
@@ -731,8 +731,8 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- touch read_analysis_sample.do
- pwd
+$ touch read_analysis_sample.do
+$ pwd
 ~~~
 {: .bash}
 
@@ -742,8 +742,8 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- cd ..
- pwd
+$ cd ..
+$ pwd
 ~~~
 {: .bash}
 
@@ -753,7 +753,7 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- tree
+$ tree
 ~~~
 {: .bash}
 
@@ -782,7 +782,7 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- mkdir analysis_sample/
+$ mkdir analysis_sample/
 ~~~
 {: .bash}
 
@@ -792,7 +792,7 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- tree
+$ tree
 ~~~
 {: .bash}
 
@@ -823,7 +823,7 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- less output/nearby-countries.csv 
+$ less output/nearby-countries.csv 
 ~~~
 {: .bash}
 
@@ -1102,7 +1102,7 @@ LAO
 {: .output}
 
 ~~~
- cat output/nearby-countries.csv 
+$ cat output/nearby-countries.csv 
 ~~~
 {: .bash}
 
@@ -1123,11 +1123,11 @@ SVN
 {: .output}
 
 ~~~
- mv code/c⇥reate_analysis_sample.do code/c01_
- ⇥mv code/read_analysis_sample.do code/02_
- mv code/calculate_distances.do code/03_
- mv code/⇥write_countries_csv.do cod04_
- tree
+$ mv code/c⇥reate_analysis_sample.do code/c01_
+$ ⇥mv code/read_analysis_sample.do code/02_
+$ mv code/calculate_distances.do code/03_
+$ mv code/⇥write_countries_csv.do cod04_
+$ tree
 ~~~
 {: .bash}
 
@@ -1158,7 +1158,7 @@ SVN
 {: .output}
 
 ~~~
- pwd
+$ pwd
 ~~~
 {: .bash}
 
@@ -1168,8 +1168,8 @@ SVN
 {: .output}
 
 ~~~
- cd code/
- pwd
+$ cd code/
+$ pwd
 ~~~
 {: .bash}
 
@@ -1179,7 +1179,7 @@ SVN
 {: .output}
 
 ~~~
- ls -al
+$ ls -al
 ~~~
 {: .bash}
 
@@ -1196,8 +1196,8 @@ drwxr-xr-x  6 koren  staff  192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- stata-mp -b do master
- ls -al
+$ stata-mp -b do master
+$ ls -al
 ~~~
 {: .bash}
 
@@ -1215,7 +1215,7 @@ drwxr-xr-x  6 koren  staff   192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- tail mas⇥ter.log 
+$ tail mas⇥ter.log 
 ~~~
 {: .bash}
 
@@ -1234,7 +1234,7 @@ end of do-file
 {: .output}
 
 ~~~
- ls -al ../output/nearby-countries.csv 
+$ ls -al ../output/nearby-countries.csv 
 ~~~
 {: .bash}
 
@@ -1244,7 +1244,7 @@ end of do-file
 {: .output}
 
 ~~~
- ⇥tree ..
+$ ⇥tree ..
 ~~~
 {: .bash}
 
@@ -1277,9 +1277,9 @@ end of do-file
 {: .output}
 
 ~~~
- # end of stata episode 1 1453
- history 100 > history.txt
- less history.txt 
+$ # end of stata episode 1 1453
+$ history 100 > history.txt
+$ less history.txt 
 ~~~
 {: .bash}
 
