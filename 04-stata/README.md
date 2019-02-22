@@ -11,17 +11,20 @@
 3. Input and output
 	- use relative path
 	- make no side effects
-	- tempfiles
-	- merge late
 	- reading/writing csv
 	- PDF figures
-4. Don't repeat yourself
-	- macros
-	- loops
-	- functions
-5. Coding style
+4. Coding style
 	- Use expressive variable names
 	- Comment why, not what
 	- Do not abbreviate
 	- Use whitespace abundantly
-6. Putting it all together
+5. Putting it all together
+
+# Material to cover in a later Stata episode
+- data wrangling
+	- tempfiles
+	- merge late
+- Don't repeat yourself
+	- macros
+	- loops
+	- functions

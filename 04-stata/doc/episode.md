@@ -9,7 +9,7 @@
 {: .output}
 
 ~~~
- <kbd>Tab</kbd>pwd
+ ⇥pwd
 ~~~
 {: .bash}
 
@@ -19,7 +19,7 @@
 {: .output}
 
 ~~~
- <kbd>Tab</kbd><kbd>Tab</kbd>tree
+ ⇥⇥tree
 ~~~
 {: .bash}
 
@@ -238,7 +238,7 @@ Notes:
 ~~~
  stata-mp -b do hundred_random_values.do 
  # for windows
- StataMP-64 /b do hun<kbd>Tab</kbd>dred_random_values.do
+ StataMP-64 /b do hun⇥dred_random_values.do
 ~~~
 {: .bash}
 
@@ -281,7 +281,7 @@ drwxr-xr-x@  3 koren  staff    96 Feb 22 12:19 UN
 {: .output}
 
 ~~~
- stata-mp do hu<kbd>Tab</kbd>ndred_random_values.
+ stata-mp do hu⇥ndred_random_values.
 ~~~
 {: .bash}
 
@@ -380,7 +380,7 @@ r(4);
 stata-mp -b do hundred_random_values.do 
 # for windows
 StataMP-64 /b do hundred_random_values.do
-<kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd><kbd>Tab</kbd>cat hun<kbd>Tab</kbd>dred_random_values.log 
+⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥⇥cat hun⇥dred_random_values.log 
 
   ___  ____  ____  ____  ____ (R)
  /__    /   ____/   /   ____/
@@ -422,7 +422,7 @@ end of do-file
 {: .output}
 
 ~~~
- ls hu<kbd>Tab</kb-al 
+ ls h-al 
 ~~~
 {: .bash}
 
@@ -433,7 +433,7 @@ end of do-file
 {: .output}
 
 ~~~
- <kbd>Tab</kbd><kbd>Tab</kbd>less hun<kbd>Tab</kbd>dred_random_values.log 
+ ⇥⇥less hun⇥dred_random_values.log 
 ~~~
 {: .bash}
 
@@ -478,45 +478,45 @@ number of observations (_N) was 0, now 100
 end of do-file
 hundred_random_values.log (END)
  ESCOB
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOB
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOB
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOB
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOB
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOB
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOB
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOA
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOA
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOA
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOA
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOA
-<kbd>Tab</kbd>
+⇥
 (END)
  ESCOA
-<kbd>Tab</kbd>
+⇥
 (END)
-49lbash-3.2$ less hundred_random_values.log cat<kbd>Tab</kbd><kbd>Tab</kbd> <kbd>Tab</kbd>
+49lbash-3.2$ less hundred_random_values.log cat⇥⇥ ⇥
 .git/                      README.md                  hundred_random_values.do
 CERDI/                     UN/                        hundred_random_values.log
 IMF/                       download.sh                screenlog.0
@@ -524,7 +524,7 @@ IMF/                       download.sh                screenlog.0
 {: .output}
 
 ~~~
- less hundred_random_values.log cat h<kbd>Tab</kbd>undred_random_values.log 
+ less hundred_random_values.log cat h⇥undred_random_values.log 
 ~~~
 {: .bash}
 
@@ -577,7 +577,7 @@ hundred_random_values.log (file 1 of 2) (END) - Next: cat
  cd 
  cd Documents/
  mkdir stata-batch
- cd st<kbd>Tab</kbd>ata-batch/
+ cd st⇥ata-batch/
  clear
  tree
 ~~~
@@ -1096,7 +1096,7 @@ KWT
  ESCOB
 LAO
 :
-49lbash-3.2$ wc -l o<kbd>Tab</kbdo<kbd>Tab</kbdoutput/nearby-countries.csv 
+49lbash-3.2$ wc -l oooutput/nearby-countries.csv 
       12 output/nearby-countries.csv
 ~~~
 {: .output}
@@ -1123,10 +1123,10 @@ SVN
 {: .output}
 
 ~~~
- mv code/c<kbd>Tab</kbd>reate_analysis_sample.do code/c<kbd>Tab</kbd01_
- <kbd>Tab</kbd>mv code/read_analysis_sample.do code/02_
+ mv code/c⇥reate_analysis_sample.do code/c01_
+ ⇥mv code/read_analysis_sample.do code/02_
  mv code/calculate_distances.do code/03_
- mv code/<kbd>Tab</kbd>write_countries_csv.do cod04_
+ mv code/⇥write_countries_csv.do cod04_
  tree
 ~~~
 {: .bash}
@@ -1215,7 +1215,7 @@ drwxr-xr-x  6 koren  staff   192 Feb 22 13:32 ..
 {: .output}
 
 ~~~
- tail mas<kbd>Tab</kbd>ter.log 
+ tail mas⇥ter.log 
 ~~~
 {: .bash}
 
@@ -1244,7 +1244,7 @@ end of do-file
 {: .output}
 
 ~~~
- <kbd>Tab</kbd>tree ..
+ ⇥tree ..
 ~~~
 {: .bash}
 

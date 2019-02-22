@@ -6,7 +6,7 @@ def tab(before):
     '''
     Replace tab character with HTML icon.
     '''
-    return before + '<kbd>Tab</kbd>'
+    return before + '\u21e5'
 
 def backspace(before):
     '''
