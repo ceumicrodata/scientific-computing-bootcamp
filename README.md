@@ -1,8 +1,8 @@
 # Syllabus
 ## Topics
-1. Linux and command line tools
+1. Linux and command line tools [done]
 2. Working with plain text files (.csv, .tex)
-3. Version control and collaboration on Github
+3. Version control and collaboration on Github [done]
 4. Clean coding in Stata 
 5. Basic Python
 6. Dependency management: make or similar
